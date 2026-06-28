@@ -638,8 +638,8 @@ const PROJECTS = [
   {
     cat:'Medical AI · Computer Vision',
     title:'RetiScan',
-    tech:['TENSORFLOW','EFFICIENTNET-B3','PYTHON','STREAMLIT','OpenCV','GDOWN','Transfer Learning'],
-    desc:`A medical-grade AI tool for Diabetic Retinopathy (DR) detection from retinal fundus images. Uses a fine-tuned EfficientNetB3 model optimized with a custom training pipeline to classify retinal scans into 5 distinct DR severity stages — helping enable early clinical diagnosis. Implemented an interactive diagnostic UI hosted via Streamlit Cloud using dynamic weight-caching to deliver fast, accessible screening metrics.`,
+    tech:['TENSORFLOW','EFFICIENTNET-B3','PYTHON','STREAMLIT','OpenCV','GDOWN','Transfer Learning','GRAD-CAM (XAI)'],
+    desc:`A medical-grade AI platform for Diabetic Retinopathy (DR) screening featuring dynamic Explainable AI (XAI). Built on a fine-tuned EfficientNet-B3 backbone, the system classifies retinal fundus images into 5 staging classes. To prevent black-box decision risks in clinical setups, it integrates an optimized flat-graph Grad-CAM engine that maps real-time feature activations. The hosted Streamlit application dynamically analyzes heatmap density by retinal quadrant to auto-generate diagnostic rationales and targeted clinical management directives with zero latency.`,
     stats:[{n:'89.9%+',l:'Accuracy'},{n:'5 Stages',l:'DR Classification'},{n:'Live',l:'Streamlit App'}],
     github:'https://github.com/HariPrasathjeyakumar/Reti_Scan_F',
     demo:'https://retiscanf-yqfdirkt9eitdruvqfp3nq.streamlit.app/'
